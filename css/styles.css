@@ -43,6 +43,10 @@ h6 {
     margin-right: 20px;
 }
 
+.carousel-control-prev {
+    padding: 0 1%;
+}
+
 
 
 .slide__title {
