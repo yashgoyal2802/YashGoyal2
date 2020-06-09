@@ -32,18 +32,14 @@ h6 {
     color: white;
 }
 
-.testimonial-text {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 .testimonial-img {
     margin: 2px;
+    padding: 0 1rem 0 1rem;
 }
 
-
-
-
+.carousel-control {
+    width: 10%;
+}
 
 .slide__title {
     font-size: 1.75em;
