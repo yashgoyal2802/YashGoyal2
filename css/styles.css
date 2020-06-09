@@ -10,8 +10,13 @@ h4,
 h5,
 h6 {
     font-family: "Montserrat", sans-serif;
-    font-weight: 900;
+    font-weight: 700;
     padding: 1% 0 0 0;
+}
+
+.top-container {
+    padding: 1% 2%;
+    background-color: #9c9694;
 }
 
 .profile-pic {
@@ -22,13 +27,20 @@ h6 {
     overflow: auto;
 }
 
+p {
+    font-size: 25px;
+    color: #ffffff;
+    margin: 0 20%;
+    line-height: 1;
+    padding: 2%;
+}
 
 .container-fluid {
     padding: 1% 2%;
 }
 
 #testimonials {
-    background-color: #6e6564;
+    background-color: #686363;
     color: white;
 }
 
@@ -67,14 +79,14 @@ h6 {
 
 .icons {
     padding: 1% 2%;
-    color: snow;
+    color: rgb(226, 221, 221);
     font-size: 32px;
 }
 
 .bottom-container {
     background-color: rgb(41, 40, 39);
     padding: 5% 12%;
-    color: snow;
+    color: rgb(226, 221, 221);
 }
 
 .animate__animated.animate__wobble {
@@ -82,7 +94,8 @@ h6 {
     animation-duration: 1.3s;
 }
 
-#descripton {
+#description {
     font-weight: normal;
-    font-size: 17px;
+    font-size: 20px;
+    color: #ffffff;
 }
