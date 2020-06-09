@@ -15,4 +15,7 @@ $(document).ready(function () {
     backSpeed: 100,
     cursorChar: "_",
   });
+  $(".carousel").carousel({
+    interval: "false",
+  });
 });

@@ -12,11 +12,13 @@ h6 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     padding: 1% 0 0 0;
+    color: #d1ccca;
 }
 
 .top-container {
     padding: 1% 2%;
-    background-color: #9c9694;
+    /* background-color: #9c9694; */
+    background-image: linear-gradient(to bottom, #2c3e50, #bdc3c7);
 }
 
 .profile-pic {
@@ -40,7 +42,8 @@ p {
 }
 
 #testimonials {
-    background-color: #686363;
+    background-color: #9c9694;
+    background-image: linear-gradient(#bdc3c7, #eeeeee);
     color: white;
 }
 
@@ -79,14 +82,14 @@ p {
 
 .icons {
     padding: 1% 2%;
-    color: rgb(226, 221, 221);
+    color: rgb(0, 0, 0);
     font-size: 32px;
 }
 
 .bottom-container {
-    background-color: rgb(41, 40, 39);
+    background-color: #eeeeee;
     padding: 5% 12%;
-    color: rgb(226, 221, 221);
+    color: #000000;
 }
 
 .animate__animated.animate__wobble {
