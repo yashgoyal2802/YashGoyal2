@@ -1,0 +1,91 @@
+body {
+    font-family: "Montserrat", sans-seri;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    padding: 1% 0 0 0;
+}
+
+.profile-pic {
+    height: 185px;
+    width: 185px;
+    border-radius: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+    overflow: auto;
+}
+
+
+.container-fluid {
+    padding: 1% 2%;
+}
+
+#testimonials {
+    background-color: #6e6564;
+    color: white;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+
+
+.slide__title {
+    font-size: 1.75em;
+    font-weight: normal;
+    margin: 0 auto;
+    padding: 1em 0 0 0;
+}
+
+.slide__title span {
+    font-size: 55%;
+    font-weight: bold;
+    display: block;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #35303d;
+}
+
+.social_links {
+    margin: 0 50px;
+    padding: 1% 2%;
+    display: inline-block;
+
+}
+
+.icons {
+    padding: 1% 2%;
+    color: snow;
+    font-size: 32px;
+}
+
+.bottom-container {
+    background-color: rgb(41, 40, 39);
+    padding: 5% 12%;
+    color: snow;
+}
+
+.animate__animated.animate__wobble {
+    animation-delay: 0.3s;
+    animation-duration: 1.3s;
+}
+
+#descripton {
+    font-weight: normal;
+    font-size: 17px;
+}
