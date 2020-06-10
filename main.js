@@ -7,7 +7,7 @@ $(document).ready(function () {
       "Web Developer^2500",
       "Open Source Contributor^2500",
       "ML Enthusiast^2500",
-      "Music Lover^2500",
+      "Binge Watcher^2500",
     ],
     shuffle: true,
     loop: true,
