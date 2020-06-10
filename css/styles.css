@@ -1,6 +1,7 @@
 body {
     font-family: "Montserrat", sans-seri;
     text-align: center;
+    background-color: #3d3a39;
 }
 
 h1,
@@ -18,7 +19,7 @@ h6 {
 .top-container {
     padding: 1% 2%;
     /* background-color: #9c9694; */
-    background-image: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    /* background-image: linear-gradient(to bottom, #2c3e50, #bdc3c7); */
 }
 
 .profile-pic {
@@ -27,6 +28,7 @@ h6 {
     border-radius: 100px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.4);
     overflow: auto;
+    max-width: 100%;
 }
 
 p {
@@ -37,13 +39,26 @@ p {
     padding: 2%;
 }
 
+hr {
+    border-color: #8f8b8a;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 8px;
+    width: 10%;
+    margin: 2.5% auto;
+}
+
 .container-fluid {
     padding: 1% 2%;
 }
 
+.middle-container {
+    margin: 5% 0;
+}
+
 #testimonials {
-    background-color: #9c9694;
-    background-image: linear-gradient(#bdc3c7, #eeeeee);
+    /* background-color: #9c9694;
+    background-image: linear-gradient(#bdc3c7, #eeeeee); */
     color: white;
 }
 
@@ -70,7 +85,7 @@ p {
     display: block;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #35303d;
+    color: #8d8992;
 }
 
 .social_links {
@@ -82,13 +97,13 @@ p {
 
 .icons {
     padding: 1% 2%;
-    color: rgb(0, 0, 0);
+    color: rgb(177, 171, 171);
     font-size: 32px;
 }
 
 .bottom-container {
-    background-color: #eeeeee;
-    padding: 5% 12%;
+    /* background-color: #eeeeee; */
+    padding: 0 12% 5% 12%;
     color: #000000;
 }
 
@@ -98,6 +113,7 @@ p {
 }
 
 #description {
+    font-family: 'Source Code Pro', monospace;
     font-weight: normal;
     font-size: 20px;
     color: #ffffff;
